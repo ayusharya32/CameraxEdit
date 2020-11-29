@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/miCrop"
+        android:title="Crop"
+        android:icon="@drawable/ic_crop_rotate"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/miEdit"
+        android:title="Edit"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="always"
+        app:iconTint="@color/white"/>
+
+</menu>
